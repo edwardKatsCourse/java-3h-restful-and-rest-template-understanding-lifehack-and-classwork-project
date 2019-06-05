@@ -1,0 +1,22 @@
+RestTemplate
+
+* - get, post, put, delete
+
+*forObject
+*forEntity
+
+getForObject
+postForEntity
+...
+
+Everything above this
+exchange (forEntity)
+execute	 (forObject)	
+
+Entity vs Object???
+
+Entity						Object - body ONLY
+response body
+response status code
+response headers
+....

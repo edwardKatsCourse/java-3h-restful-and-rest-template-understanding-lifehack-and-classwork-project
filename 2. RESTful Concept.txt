@@ -1,0 +1,29 @@
+RESTful
+JSON/XML
+
+***List<User>
+/users		POST (create ONLY)		201
+/users		GET (read users)		200
+/users		PUT	 (update ONLY)		202
+/users		DELETE (delete ONLY)	200
+CRUD
+
+***User
+/users/1	GET
+/users/1	PUT
+/users/1	DELETE
+
+***User -> List<Account>
+/users/1/accounts
+/users/1/accounts/15
+
+HTTP 1.0 | GET, POST
+HTTP 1.1 | GET, POST, PUT, DELETE | HEAD, OPTIONS, PATCH, TRACE
+					99.99%					0.01%
+
+
+Order
+status: SHIPPED -> DELIVERED 
+				-> DISPUTE
+				
+Confirm Order Received
